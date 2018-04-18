@@ -10,10 +10,11 @@ public class problem2 {
 			if(next%2 == 0) {
 				sum = sum + next;
 			}
+			System.out.print(next + " ");
 			next = prev + curr;
 			prev = curr;
 			curr = next;
 		}
-		System.out.println(sum);
+		System.out.println("\n" +sum);
 	}
 }
